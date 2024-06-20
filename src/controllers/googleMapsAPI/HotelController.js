@@ -1,7 +1,7 @@
-import BaseHotelAPIController from "../hotelAPI/BaseHotelAPIController.js";
+import BaseGoogleMapsAPIController from "./BaseGoogleMapsAPIController.js";
 
 
-export default class HotelController extends BaseHotelAPIController {
+export default class HotelController extends BaseGoogleMapsAPIController {
   _HOTEL_AVAILABILITIES_PATH = "googlemapsapi/avalabilitiesLookup";
 
   async getHotelAvailabilities(data) {
